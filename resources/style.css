@@ -1,0 +1,138 @@
+
+
+.header {
+font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
+border-bottom: 1px solid black;
+display: flex;
+align-items: center;
+position: fixed;
+width: 100%;
+height: 80px;
+z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+header nav{
+  padding-right: 40px;
+}
+
+nav {
+  display: block;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.content {
+  display: flex;
+  padding-top: 116px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column .large {
+  border: 1px solid red;
+  width: 630px;
+}
+
+.column .medium {
+  border: 1px solid red;
+  width: 300px;
+}
+
+.column .small {
+  border: 1px solid red;
+  width: 240px;
+}
+
+.leadStory .contentPhoto {
+  background-image: url(../resources/images/img-story-main.png);
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
+  width: 630px;
+}
+
+.contentPhoto {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  margin-top: 15px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.fallPhoto .contentPhoto {
+  background-image: url(../resources/images/img-story-2.png);
+}
+
+.popculturePhoto .contentPhoto {
+  background-image: url(../resources/images/img-story-3.png);
+}
+
+.catPhoto .contentPhoto {
+  background-image: url(../resources/images/img-story-1.png);
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .contentText {
+  height: 250px;
+}
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.leadStory {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
